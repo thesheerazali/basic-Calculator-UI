@@ -8,13 +8,39 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xFF28527a),
+        backgroundColor: Colors.cyan,
         appBar: AppBar(
-          title: Text('Calculator'),
-        ),
+            title: const Text('Calculator'),
+            //titleSpacing: 140,
+            centerTitle: true,
+            elevation: 10,
+            backgroundColor: Colors.black,
+            toolbarHeight: 60),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
+            const Padding(
+              padding: EdgeInsets.only(
+                left: 250,
+              ),
+              child: Text(
+                '308 x 42',
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black54),
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.only(left: 200, bottom: 20),
+              child: Text(
+                '12,936',
+                style: TextStyle(
+                    fontSize: 50,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black),
+              ),
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: const [

@@ -19,7 +19,7 @@ class CalculatorButtons extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(3.0),
           child: Container(
-            height: 80,
+            height: 70,
             width: 80,
             decoration: BoxDecoration(
                 color: Colors.black, borderRadius: BorderRadius.circular(20)),

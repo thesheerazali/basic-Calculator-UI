@@ -11,7 +11,8 @@ class CalculatorUi extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       //theme: ThemeData(primarySwatch: Colors.black),
       home: MainPage(),
     );

@@ -18,6 +18,12 @@ class MainPage extends StatelessWidget {
           elevation: 10,
           backgroundColor: Colors.black,
           toolbarHeight: 80,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+              bottomRight: Radius.circular(25),
+              bottomLeft: Radius.circular(25),
+            ),
+          ),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.end,

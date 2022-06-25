@@ -17,7 +17,7 @@ class CalculatorButtons extends StatelessWidget {
     return Row(
       children: [
         Padding(
-          padding: const EdgeInsets.all(3.0),
+          padding: const EdgeInsets.all(1.0),
           child: Container(
             height: 70,
             width: 80,
